@@ -67,3 +67,56 @@ test.c:47:6: error: ‘readIntArray’ defined but not used [-Werror=unused-func
 cc1: all warnings being treated as errors
 Compilation failed
 3c0c96b
+Thu 14 Mar 2024 08:58:33 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘reverseArray’:
+exercises.c:34:1: error: expected identifier or ‘(’ before ‘}’ token
+   34 | }
+      | ^
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:50:10: error: expected ‘(’ before ‘arr’
+   50 |       if arr[i] % 2 = 0;
+      |          ^~~
+      |          (
+exercises.c:50:13: error: statement with no effect [-Werror=unused-value]
+   50 |       if arr[i] % 2 = 0;
+      |          ~~~^~~
+exercises.c:55:12: error: expected expression before ‘int’
+   55 |   newArr = int *malloc(total * sizeof(int));
+      |            ^~~
+exercises.c:59:20: error: lvalue required as left operand of assignment
+   59 |     if (arr[j] % 2 = 0)
+      |                    ^
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:78:12: error: expected expression before ‘int’
+   78 |   newArr = int *malloc(total *sizeof(int));
+      |            ^~~
+exercises.c:81:8: error: expected ‘(’ before ‘arr1’
+   81 |     if arr1[i] < arr2[i];
+      |        ^~~~
+      |        (
+exercises.c:81:12: error: statement with no effect [-Werror=unused-value]
+   81 |     if arr1[i] < arr2[i];
+      |        ~~~~^~~
+test.c: In function ‘reverseArray’:
+test.c:382:5: error: ‘main’ is normally a non-static function [-Werror=main]
+  382 | int main(int argc, char *argv[]) {
+      |     ^~~~
+test.c:410:1: error: expected declaration or statement at end of input
+  410 | }
+      | ^
+test.c:7:6: error: unused variable ‘msg’ [-Werror=unused-variable]
+    7 | char msg[300];
+      |      ^~~
+At top level:
+test.c:382:5: error: ‘main’ defined but not used [-Werror=unused-function]
+  382 | int main(int argc, char *argv[]) {
+      |     ^~~~
+test.c:47:6: error: ‘readIntArray’ defined but not used [-Werror=unused-function]
+   47 | void readIntArray(int arr[], int *size) {
+      |      ^~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+1127005

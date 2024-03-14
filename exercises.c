@@ -14,7 +14,7 @@ int findMax(int arr[], int size)
   int mayor = 0;
   for (int i = 0; i < size; i++)
     {
-      if arr[i] > mayor;
+      if (arr[i] > mayor)
       {
         mayor = arr[i];
       }
@@ -56,7 +56,7 @@ int *filterEvenNumbers(int arr[], int size, int *newSize)
 
   for (int j = 0; j < size; j++)
   {
-    if arr[j] % 2 = 0;
+    if (arr[j] % 2 = 0)
     {
       newArr[j] = arr[j];
     }
