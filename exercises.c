@@ -1,4 +1,4 @@
-a #include <ctype.h>
+#include <ctype.h>
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -9,14 +9,29 @@ Ejercicio 1: Encuentra el Elemento Mayor
 Descripción: Escribe una función que tome un arreglo de enteros
 y su tamaño, y devuelva el valor más grande del arreglo.
 */
-int findMax(int arr[], int size) { return 0; }
+int findMax(int arr[], int size)
+{ 
+  int mayor = 0;
+  for (int i = 0; i < size; i++)
+    {
+      if arr[i] > mayor;
+      {
+        mayor = arr[i];
+      }
+    }
+  
+  return 0; 
+}
 
 /*
 Ejercicio 2: Invertir un Arreglo
 Descripción: Escribe una función que tome un arreglo y su tamaño, y luego
 invierta el orden de sus elementos.
 */
-void reverseArray(int arr[], int size) {}
+void reverseArray(int arr[], int size) 
+{ 
+  int 
+}
 
 /*
 Ejercicio 3: Filtrar Números Pares
@@ -26,7 +41,28 @@ los números pares del arreglo original.
 newsize apunta a una dirección válida que no ha sido inicializada con nigún valor específico. 
 *newsize debe almacenar el tamaño del nuevo arreglo que se retorna.
 */
-int *filterEvenNumbers(int arr[], int size, int *newSize) { return NULL; }
+int *filterEvenNumbers(int arr[], int size, int *newSize) 
+{ 
+  int *newArr = NULL;
+  int total = 0;
+  for (int i = 0; i < size; i++)
+    {
+      if arr[i] % 2 = 0;
+      {
+        total++;
+      }
+    }
+  newArr = int *malloc(total * sizeof(int));
+
+  for (int j = 0; j < size; j++)
+  {
+    if arr[j] % 2 = 0;
+    {
+      newArr[j] = arr[j];
+    }
+  }
+  return NULL; 
+}
 
 /*
 Ejercicio 4: Fusión de dos Arreglos Ordenados
@@ -35,7 +71,20 @@ ordenados de menor a mayor y sus tamaños, y luego fusione estos dos
 arreglos en un tercer arreglo también ordenado de menor a mayor.
 */
 void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,
-                       int result[]) {}
+                       int result[]) 
+{
+  int total = size1 + size2;
+  int *newArr = NULL;
+  newArr = int *malloc(total *sizeof(int));
+  for (int i = 0; i < total;i++)
+  {
+    if arr1[i] < arr2[i];
+    {
+      newArr[i] = arr1[i];
+    }
+
+  }
+}
 
 /*
 Ejercicio 5: Comprobación de Ordenación
