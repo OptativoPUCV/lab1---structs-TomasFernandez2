@@ -54,7 +54,7 @@ int *filterEvenNumbers(int arr[], int size, int *newSize)
 
   for (int j = 0; j < size; j++)
   {
-    if (arr[j] % 2 = 0)
+    if (arr[j] % 2 == 0)
     {
       newArr[j] = arr[j];
     }
@@ -73,7 +73,7 @@ void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,
 {
   int total = size1 + size2;
   int *newArr = NULL;
-  newArr = int *malloc(total *sizeof(int));
+  newArr = (int *)malloc(total *sizeof(int));
   for (int i = 0; i < total;i++)
   {
     if arr1[i] < arr2[i];
