@@ -322,3 +322,25 @@ exercises.c:79:12: error: statement with no effect [-Werror=unused-value]
 cc1: all warnings being treated as errors
 Compilation failed
 d893821
+Thu 14 Mar 2024 09:00:37 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:57:20: error: lvalue required as left operand of assignment
+   57 |     if (arr[j] % 2 = 0)
+      |                    ^
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:76:12: error: expected expression before ‘int’
+   76 |   newArr = int *malloc(total *sizeof(int));
+      |            ^~~
+exercises.c:79:8: error: expected ‘(’ before ‘arr1’
+   79 |     if arr1[i] < arr2[i];
+      |        ^~~~
+      |        (
+exercises.c:79:12: error: statement with no effect [-Werror=unused-value]
+   79 |     if arr1[i] < arr2[i];
+      |        ~~~~^~~
+cc1: all warnings being treated as errors
+Compilation failed
+099757e

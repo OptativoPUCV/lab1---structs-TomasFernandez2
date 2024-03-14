@@ -50,7 +50,7 @@ int *filterEvenNumbers(int arr[], int size, int *newSize)
         total++;
       }
     }
-  newArr = int *malloc(total * sizeof(int));
+  newArr = (int *)malloc(total * sizeof(int));
 
   for (int j = 0; j < size; j++)
   {
