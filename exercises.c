@@ -130,7 +130,7 @@ int checkSorted(int arr[], int size)
   {
     return -1;
   }
-  else
+  if (desordenados > 0)
   {
     return 0;
   }
