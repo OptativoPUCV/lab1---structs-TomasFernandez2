@@ -579,3 +579,13 @@ test.c:47:6: error: ‘readIntArray’ defined but not used [-Werror=unused-func
 cc1: all warnings being treated as errors
 Compilation failed
 c381da3
+Mon 18 Mar 2024 01:28:26 AM UTC: 
+ exercises.c | 15 +++++++--------
+ 1 file changed, 7 insertions(+), 8 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:85:3: error: expected ‘,’ or ‘;’ before ‘while’
+   85 |   while (i < size1 && j < size2){
+      |   ^~~~~
+Compilation failed
+8e870f6
