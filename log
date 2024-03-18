@@ -636,3 +636,9 @@ exercises.c:85:3: error: expected ‘,’ or ‘;’ before ‘while’
       |   ^~~~~
 Compilation failed
 f0702e7
+Mon 18 Mar 2024 01:42:21 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|3
+total_score: 40/70
+92a44e7
