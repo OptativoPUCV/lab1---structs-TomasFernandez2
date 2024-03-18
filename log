@@ -701,3 +701,9 @@ exercises.c:133:5: error: ‘ascendente’ may be used uninitialized in this fun
 cc1: all warnings being treated as errors
 Compilation failed
 a3779d1
+Mon 18 Mar 2024 01:57:37 AM UTC: 
+ exercises.c | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+ tests:  0|3
+total_score: 40/70
+38f3497
