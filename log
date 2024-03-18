@@ -676,3 +676,17 @@ Mon 18 Mar 2024 01:49:53 AM UTC:
  tests:  0|3
 total_score: 40/70
 8f4c98a
+Mon 18 Mar 2024 01:53:19 AM UTC: 
+ exercises.c | 17 +++++++++++++----
+ 1 file changed, 13 insertions(+), 4 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘checkSorted’:
+exercises.c:121:32: error: unused variable ‘ninguno’ [-Werror=unused-variable]
+  121 |   int ascendente, descendente, ninguno = 0;
+      |                                ^~~~~~~
+exercises.c:133:5: error: ‘ascendente’ may be used uninitialized in this function [-Werror=maybe-uninitialized]
+  133 |   if(ascendente == size-1)
+      |     ^
+cc1: all warnings being treated as errors
+Compilation failed
+7707132
