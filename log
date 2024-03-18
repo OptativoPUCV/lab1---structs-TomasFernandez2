@@ -660,3 +660,13 @@ Mon 18 Mar 2024 01:48:54 AM UTC:
  tests:  0|3
 total_score: 40/70
 4baccea
+Mon 18 Mar 2024 01:49:47 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘checkSorted’:
+exercises.c:128:29: error: expected statement before ‘)’ token
+  128 |       if(arr[i] <= arr[i+1]))
+      |                             ^
+Compilation failed
+4af2fbb
