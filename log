@@ -690,3 +690,14 @@ exercises.c:133:5: error: ‘ascendente’ may be used uninitialized in this fun
 cc1: all warnings being treated as errors
 Compilation failed
 7707132
+Mon 18 Mar 2024 01:53:47 AM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘checkSorted’:
+exercises.c:133:5: error: ‘ascendente’ may be used uninitialized in this function [-Werror=maybe-uninitialized]
+  133 |   if(ascendente == size-1)
+      |     ^
+cc1: all warnings being treated as errors
+Compilation failed
+a3779d1
