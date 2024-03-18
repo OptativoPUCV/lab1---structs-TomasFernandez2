@@ -626,3 +626,13 @@ exercises.c:85:3: error: expected ‘,’ or ‘;’ before ‘while’
       |   ^~~~~
 Compilation failed
 228867d
+Mon 18 Mar 2024 01:41:40 AM UTC: 
+ exercises.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:85:3: error: expected ‘,’ or ‘;’ before ‘while’
+   85 |   while (i < size1 && j < size2)
+      |   ^~~~~
+Compilation failed
+f0702e7
