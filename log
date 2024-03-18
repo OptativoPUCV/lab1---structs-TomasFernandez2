@@ -589,3 +589,30 @@ exercises.c:85:3: error: expected ‘,’ or ‘;’ before ‘while’
       |   ^~~~~
 Compilation failed
 8e870f6
+Mon 18 Mar 2024 01:28:46 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:85:3: error: expected ‘,’ or ‘;’ before ‘while’
+   85 |   while (i < size1 && j < size2)
+      |   ^~~~~
+exercises.c:91:5: error: ‘else’ without a previous ‘if’
+   91 |     else
+      |     ^~~~
+exercises.c:84:7: error: unused variable ‘i’ [-Werror=unused-variable]
+   84 |   int i = 0, j = 0, k = 0
+      |       ^
+exercises.c: At top level:
+exercises.c:98:3: error: expected identifier or ‘(’ before ‘while’
+   98 |   while (i < size1)
+      |   ^~~~~
+exercises.c:102:3: error: expected identifier or ‘(’ before ‘while’
+  102 |   while (j < size2)
+      |   ^~~~~
+exercises.c:106:1: error: expected identifier or ‘(’ before ‘}’ token
+  106 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+f470264
