@@ -81,7 +81,7 @@ arreglos en un tercer arreglo también ordenado de menor a mayor.
 void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,
                        int result[]) 
 {
-  int total = size1 + size2;
+  int total = (size1 + size2) - 2;
   int *newArr = NULL;
   int contador = 0;
   newArr = (int *)malloc(total *sizeof(int));
