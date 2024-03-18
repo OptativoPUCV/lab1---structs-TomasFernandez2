@@ -616,3 +616,13 @@ exercises.c:106:1: error: expected identifier or ‘(’ before ‘}’ token
 cc1: all warnings being treated as errors
 Compilation failed
 f470264
+Mon 18 Mar 2024 01:29:16 AM UTC: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:85:3: error: expected ‘,’ or ‘;’ before ‘while’
+   85 |   while (i < size1 && j < size2)
+      |   ^~~~~
+Compilation failed
+228867d
